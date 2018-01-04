@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="283.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="39.0" layoutY="44.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="74.0" text="Sıcaklık" />
+        <Label fx:id="label" layoutX="124.0" layoutY="48.0" minHeight="16" minWidth="69" />
+      <Button fx:id="zaman" layoutX="41.0" layoutY="79.0" mnemonicParsing="false" onAction="#handle2ButtonAction" prefHeight="25.0" prefWidth="74.0" text="Zaman" />
+      <Label fx:id="zamanlabel" layoutX="124.0" layoutY="83.0" prefHeight="17.0" prefWidth="69.0" />
+      <Button fx:id="calis" layoutX="41.0" layoutY="117.0" mnemonicParsing="false" onAction="#handle3ButtonAction" text="Fan Çalıştır" />
+      <Label fx:id="fa" layoutX="124.0" layoutY="121.0" prefHeight="17.0" prefWidth="69.0" />
+      <Button fx:id="r" layoutX="293.0" layoutY="36.0" mnemonicParsing="false" onAction="#handle4ButtonAction" text="Arduino Çalıştır" />
+      <ListView fx:id="list" layoutX="352.0" layoutY="139.0" prefHeight="140.0" prefWidth="69.0" />
+      <ListView fx:id="liste" layoutX="283.0" layoutY="139.0" prefHeight="140.0" prefWidth="69.0" />
+      <Label layoutX="293.0" layoutY="113.0" text="Zaman" />
+      <Label layoutX="363.0" layoutY="109.0" text="sıcaklık" />
+    </children>
+</AnchorPane>
